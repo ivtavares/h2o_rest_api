@@ -1,0 +1,7 @@
+flask
+flask_restplus
+requests
+tabulate
+colorama>=0.3.8
+future
+http://h2o-release.s3.amazonaws.com/h2o/rel-wolpert/11/Python/h2o-3.18.0.11-py2.py3-none-any.whl
