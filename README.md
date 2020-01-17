@@ -31,4 +31,4 @@ went_on_backorder – Product actually went on backorder. This is the target val
 # API Behavior
 You can access Swagger through root directory ("/"). The api has two endpoints:
 * ('/train'): Which will train a new model and serve it. So far, the train endpoint does not allow new datasets.
-* ('/test'): Test the set of parameters providades as a json and return if the product will go on backorder. For more information about the parameter check the Swagger documentation
+* ('/test'): Test the set of parameters providades as a json and return if the product will go on backorder. For more information about the parameters check the Swagger documentation
