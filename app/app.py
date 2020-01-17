@@ -24,18 +24,16 @@ class InvalidUsage(Exception):
 
 
 def load_parameters():
-    with open('app/parameters/predict.json') as json_file:
+    with open('/var/app/parameters/predict.json') as json_file:
         parameters = json.load(json_file)
         return parameters['features'], parameters['model_path']
 
 
 def connect_to_server():
-    username = os.environ.get('username')
-    password = os.environ.get('password')
     try:
-        h2o.init(url='http://3.92.211.117:54321/',
-             username=username,
-             password=password)
+        h2o.init(url=os.environ.get('url'),
+             username=os.environ.get('username'),
+             password=os.environ.get('password'))
         return 200
     except Exception as e:
         return 500
