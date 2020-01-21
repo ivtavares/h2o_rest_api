@@ -1,1 +1,1 @@
-{"features": ["national_inv", "lead_time", "in_transit_qty", "forecast_3_month", "forecast_6_month", "forecast_9_month", "sales_1_month", "sales_3_month", "sales_6_month", "sales_9_month", "min_bank", "potential_issue", "pieces_past_due", "perf_6_month_avg", "perf_12_month_avg", "local_bo_qty", "deck_risk", "oe_constraint", "ppap_risk", "stop_auto_buy", "rev_stop"], "model_path": "/tmp/mymodel/DRF_0_AutoML_20200117_132011"}
+{"model_path": "/tmp/mymodel/DRF_0_AutoML_20200121_114044"}
