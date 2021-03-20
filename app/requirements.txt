@@ -12,7 +12,7 @@ http://h2o-release.s3.amazonaws.com/h2o/rel-wolpert/11/Python/h2o-3.18.0.11-py2.
 idna==2.8
 importlib-metadata==1.4.0
 itsdangerous==1.1.0
-Jinja2==2.10.3
+Jinja2==2.11.3
 jsonschema==3.2.0
 MarkupSafe==1.1.1
 more-itertools==8.1.0
